@@ -7,8 +7,9 @@
 
 <body>
     <div class="container">
-        <button>Button</button>
-        <button>Button</button>
+        <button style="height: 50px;">Button</button>
+        <button style="height: 50px;">Button</button>
+        <button style="height: 50vh;">Button</button>
     </div>
 </body>
 
@@ -17,10 +18,12 @@
 <style>
     .container {
         position: relative;
-        top: 50vh;
+        top: 0vh;
         width: 100vw;
+        height: 50vh;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: end;
     }
 </style>

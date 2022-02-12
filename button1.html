@@ -7,9 +7,12 @@
 
 <body>
     <div class="container">
-        <button class="button">Button</button>
-        <button class="button">Button</button>
-        <button class="button">Button</button>
+        <div class="button1">
+            <button>Button</button>
+        </div>
+        <div class="button2">
+            <button>Button</button>
+        </div>
     </div>
 </body>
 
@@ -22,9 +25,14 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: center;
     }
-    .button {
-        width: 60px;
+    .button1 {
+        display: flex;
+        justify-content: left;
+    }
+
+    .button2 {
+        display: flex;
+        justify-content: right;
     }
 </style>
